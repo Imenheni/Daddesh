@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/images/favicon.png" type="image/png" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+
+    <title>Boutique</title>
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+
+    <div id="header1">
+      <div class="humberger">
+        <input type="checkbox" />
+      </div>
+      <div id="left">
+        <a href="daddesh.html"> <img src="images/logo.png" /> </a>
+      </div>
+
+      <div id="right">
+        <ul>
+          <li><a href="boutique.html" class="custom_btn"> Boutique </a></li>
+          <li><a href="bbp.html" class="custom_btn"> Blog </a></li>
+          <li><a href="contact.html" class="custom_btn"> Contact </a></li>
+          <li><a href="CCM.html" class="custom_btn"> CCM </a></li>
+          <li>
+            <a href="panier.html"> <img src="images/panier.png" /> </a>
+          </li>
+          <li>
+            <a href="compte.html"> <img src="images/compte.png" /> </a>
+          </li>
+          <li>
+            <a href="favories.html"> <img src="images/favpage.png" /> </a>
+          </li>
+          <li>
+            <a href="#"> <img src="images/recherche.png" /> </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!--Filtre-->
+    <section class="filter">
+      <div class="sidebar">
+        <div class="sidebar-left">
+          <div class="card">
+            <div class="card-head">
+              <!-- carousel hero -->
+              <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="images/couverture1.png"
+                      alt="couverture1"
+                      style="width: 100%"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="images/couverture3.png"
+                      alt="couverture3"
+                      style="width: 100%"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <h4 class="card-title">Bienvenue sur Daddesh !</h4>
+              <p class="card-description">
+                Restez connectés pour recevoir des offres spéciales, des
+                conseils de mode et les dernières nouvelles de daddesh...
+              </p>
+              <p class="buttons-titles">Connexion via</p>
+              <a href="#" class="btn border-gray m-1"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a href="#" class="btn border-gray m-1"
+                ><i class="fab fa-google"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="card-body card-filter mt-2 py-3">
+            <h4 class="card-category">Catégorie</h4>
+            <div class="input-group mb-3">
+              <select class="custom-select" id="inputGroupSelect01">
+                <option selected>Catégorie</option>
+                <option value="1">Femme</option>
+                <option value="2">Fille</option>
+                <option value="3">Garçon</option>
+              </select>
+            </div>
+            <h4 class="card-category">Pointure</h4>
+            <div class="input-group mb-3">
+              <select class="custom-select" id="inputGroupSelect02">
+                <option selected>Pointure</option>
+                <option value="1">36</option>
+                <option value="2">37</option>
+                <option value="3">38</option>
+                <option value="4">39</option>
+                <option value="5">40</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="sidebar-right">
+          <div class="produit">
+            <div class="produit-item">
+              <a href="#" class="item-img">
+                <img src="images/sacfemme.png"
+              /></a>
+              <p class="item-text">Sac a main, Femme</p>
+              <p class="item-price-after">39.000 DT</p>
+              <div class="footer-icons">
+                <p class="item-price-before">30.000 DT</p>
+
+                <a href="#" class="ajouter-produit expanded"> </a>
+              </div>
+              <a href="#" class="ajouter-pan">Ajouter au panier</a>
+            </div>
+
+            <div class="produit-item">
+              <a href="#" class="item-img">
+                <img src="images/sandalefille.png"
+              /></a>
+              <p class="item-text">Pantoufles d'été, Fille</p>
+              <p class="item-price-after">15.000 DT</p>
+              <div class="footer-icons">
+                <p class="item-price-before">30.000 DT</p>
+
+                <a href="#" class="ajouter-produit expanded"> </a>
+              </div>
+              <a href="#" class="ajouter-pan">Ajouter au panier</a>
+            </div>
+            <div class="produit-item">
+              <a href="#" class="item-img">
+                <img src="images/accessoirefemme.png"
+              /></a>
+              <p class="item-text">Long collier, Femme</p>
+              <p class="item-price-after">18.000 DT</p>
+              <div class="footer-icons">
+                <p class="item-price-before">35.000 DT</p>
+
+                <a href="#" class="ajouter-produit expanded"> </a>
+              </div>
+              <a href="#" class="ajouter-pan">Ajouter au panier</a>
+            </div>
+            <div class="produit-item">
+              <a href="#" class="item-img">
+                <img src="images/elastiquecheveux.png"
+              /></a>
+              <p class="item-text">Élastique cheveux, Fille</p>
+              <p class="item-price-after">6.000 DT</p>
+              <div class="footer-icons">
+                <p class="item-price-before">12.000 DT</p>
+
+                <a href="#" class="ajouter-produit expanded"> </a>
+              </div>
+              <a href="#" class="ajouter-pan">Ajouter au panier</a>
+            </div>
+            <div class="produit-item">
+              <a href="#" class="item-img">
+                <img src="images/sacfemme.png"
+              /></a>
+              <p class="item-text">Sac a main, Femme</p>
+              <p class="item-price-after">39.000 DT</p>
+              <div class="footer-icons">
+                <p class="item-price-before">59.000 DT</p>
+
+                <a href="#" class="ajouter-produit expanded"> </a>
+              </div>
+              <a href="#" class="ajouter-pan">Ajouter au panier</a>
+            </div>
+          </div>
+
+          <div class="produit">
+            <div class="produit-item">
+              <a href="#" class="item-img">
+                <img src="images/sacfemme.png"
+              /></a>
+              <p class="item-text">Sac a main, Femme</p>
+              <p class="item-price-after">39.000 DT</p>
+              <div class="footer-icons">
+                <p class="item-price-before">30.000 DT</p>
+
+                <a href="#" class="ajouter-produit expanded"> </a>
+              </div>
+              <a href="#" class="ajouter-pan">Ajouter au panier</a>
+            </div>
+
+            <div class="produit-item">
+              <a href="#" class="item-img">
+                <img src="images/sandalefille.png"
+              /></a>
+              <p class="item-text">Pantoufles d'été, Fille</p>
+              <p class="item-price-after">15.000 DT</p>
+              <div class="footer-icons">
+                <p class="item-price-before">30.000 DT</p>
+
+                <a href="#" class="ajouter-produit expanded"> </a>
+              </div>
+              <a href="#" class="ajouter-pan">Ajouter au panier</a>
+            </div>
+            <div class="produit-item">
+              <a href="#" class="item-img">
+                <img src="images/accessoirefemme.png"
+              /></a>
+              <p class="item-text">Long collier, Femme</p>
+              <p class="item-price-after">18.000 DT</p>
+              <div class="footer-icons">
+                <p class="item-price-before">30.000 DT</p>
+
+                <a href="#" class="ajouter-produit expanded"> </a>
+              </div>
+              <a href="#" class="ajouter-pan">Ajouter au panier</a>
+            </div>
+            <div class="produit-item">
+              <a href="#" class="item-img">
+                <img src="images/elastiquecheveux.png"
+              /></a>
+              <p class="item-text">Élastique cheveux, Fille</p>
+              <p class="item-price-after">6.000 DT</p>
+              <div class="footer-icons">
+                <p class="item-price-before">30.000 DT</p>
+
+                <a href="#" class="ajouter-produit expanded"> </a>
+              </div>
+              <a href="#" class="ajouter-pan">Ajouter au panier</a>
+            </div>
+            <div class="produit-item">
+              <a href="#" class="item-img">
+                <img src="images/sacfemme.png"
+              /></a>
+              <p class="item-text">Sac a main, Femme</p>
+              <p class="item-price-after">39.000 DT</p>
+              <div class="footer-icons">
+                <p class="item-price-before">30.000 DT</p>
+
+                <a href="#" class="ajouter-produit expanded"> </a>
+              </div>
+              <a href="#" class="ajouter-pan">Ajouter au panier</a>
+            </div>
+          </div>
+
+          <nav aria-label="Page navigation example">
+            <ul class="pagination">
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                  <span class="sr-only">Previous</span>
+                </a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="main-footer">
+        <section class="socialMedia">
+          <a href="https:www.twitter.com">
+            <i class="fab fa-twitter fa-3x"></i>
+          </a>
+          <a href="https:www.facebook.com">
+            <i class="fab fa-facebook fa-3x"></i>
+          </a>
+          <a href="https:www.google.com">
+            <i class="fab fa-google fa-3x"></i>
+          </a>
+          <a href="https:www.instagram.com">
+            <i class="fab fa-instagram fa-3x"></i>
+          </a>
+        </section>
+
+        <section class="footer-nav">
+          <h1 class="footer-nav-title">Informations</h1>
+          <ul class="footer-nav-list">
+            <li class="footer-navigation"><a href="#"> A propos</a></li>
+            <li class="footer-navigation">
+              <a href="Echanges et retours.html"> Echanges et retours</a>
+            </li>
+            <li class="footer-navigation">
+              <a href="termes&conditions.html"> Termes et conditions</a>
+            </li>
+            <li class="footer-navigation"><a href="#"> Suivi commande</a></li>
+          </ul>
+        </section>
+        <section class="footer-nav">
+          <h1 class="footer-nav-title">Produits</h1>
+          <ul class="footer-nav-list">
+            <li class="footer-navigation"><a href="#"> Promotions</a></li>
+            <li class="footer-navigation">
+              <a href="#"> Nouveaux produits</a>
+            </li>
+            <li class="footer-navigation"><a href="#"> Meilleurs vente</a></li>
+            <li class="footer-navigation">
+              <a href="#"> Produit à essayer</a>
+            </li>
+          </ul>
+        </section>
+        <section class="footer-nav">
+          <h1 class="footer-nav-title">Navigations</h1>
+          <ul class="footer-nav-list">
+            <li class="footer-navigation">
+              <a href="daddesh.html"> Accueil</a>
+            </li>
+            <li class="footer-navigation">
+              <a href="boutique.html"> Boutique</a>
+            </li>
+            <li class="footer-navigation"><a href="bbp.html"> Blog</a></li>
+            <li class="footer-navigation">
+              <a href="contact.html"> Contact</a>
+            </li>
+            <li class="footer-navigation">
+              <a href="CCM.html"> Comment ça marche!</a>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <hr class="footer-sperator" />
+      <div class="second-footer">
+        <p>© Tous droits réservés.</p>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/all.min.js"
+      integrity="sha512-UwcC/iaz5ziHX7V6LjSKaXgCuRRqbTp1QHpbOJ4l1nw2/boCfZ2KlFIqBUA/uRVF0onbREnY9do8rM/uT/ilqw=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>
